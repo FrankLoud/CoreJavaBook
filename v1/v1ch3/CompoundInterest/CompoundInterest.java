@@ -49,7 +49,7 @@ public class CompoundInterest
       {
          // print table row
          for (double b : row)
-            System.out.printf("%10.2f", b);
+            System.out.printf("%,10.2f", b);
 
          System.out.println();
       }

@@ -19,7 +19,7 @@ public class LotteryOdds
 
       /* 
          compute binomial coefficient
-         n * (n - 1) * (n - 2) * . . . * (n - k + 1)
+         (n - 1 + 1) * (n - 2 + 1) * (n - 3 + 1) * . . . * (n - k + 1)
          -------------------------------------------
          1 * 2 * 3 * . . . * k
       */
